@@ -30,12 +30,14 @@ export function CommonMetadata() {
 
 export function CommonFooter(props) {
     const lang = useContext(LangContext)
+    const fancordInviteLink = props.fancordInviteLink
     return <footer>
         <a href={props.channelLink}>{lang.CommonMetadata.FooterStreamerLink}</a> <br />
         <small>
             {lang.formatString(
                 lang.CommonMetadata.FooterText,
-                <a href="https://github.com/saplinganon/imissfauna.com">{lang.CommonMetadata.FooterSourceLink}</a>
+                <a href="https://github.com/saplinganon/imissfauna.com">{lang.CommonMetadata.FooterSourceLink}</a>,
+                fancordInviteLink !== undefined ? <a href={fancordInviteLink}>{lang.CommonMetadata.FooterFancordLink}</a> : null
             )}
         </small>
     </footer>

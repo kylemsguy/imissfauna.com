@@ -3,18 +3,19 @@ const AllStrings = {}
 // To add a new language, copypaste starting from this line...
 AllStrings["en"] = {
     CommonMetadata: {
-        HeaderSMTitle: "I MISS FAUNA",
-        FooterText: "Not affiliated with Fauna or hololive - Stream data provided by Holodex - {0}",
+        HeaderSMTitle: "I MISS RINA",
+        FooterText: "Not affiliated with Rina Astera - Stream data provided by Holodex - {0}",
         FooterSourceLink: "Source",
-        FooterStreamerLink: "Ceres Fauna Ch. hololive-EN"
+        FooterStreamerLink: "Rina Astera Ch.",
+        FooterFancordLink: "Unofficial Rina Discord"
     },
 
     Main: {
-        PageTitle: "I MISS FAUNA",
-        DontMissCaption: "I Don't Miss Fauna",
+        PageTitle: "I MISS RINA",
+        DontMissCaption: "I Don't Miss Rina",
         ImageAlt: "Meme",
         RandomVodLink: "Do your reps",
-        ErrorMessageChannelLink: "You can check Fauna's channel yourself",
+        ErrorMessageChannelLink: "You can check Rina's channel yourself",
         ErrorOccurred: "There was a problem checking stream status. {0}!",
         Embed: {
             TextLive: "Streaming: {0}",
@@ -29,13 +30,13 @@ AllStrings["en"] = {
         StatusStreamQueued: "Next Stream",
         NoStreamDummyStatus: "Current Stream",
         NoStreamDummyTitle: "NOTHING UUUUUUUuuuuuu",
-        MembersOnlySubtext: "(for Faunatics only!)",
+        MembersOnlySubtext: "(for Stewards only!)",
         ThumbnailAltText: "Video Thumbnail"
     },
 
     Reps: {
         PageTitle: "Do your reps!",
-        SMMetaDescription: "Get a random Fauna VOD to watch!",
+        SMMetaDescription: "Get a random Rina VOD to watch!",
         VodInfoUploadDate: "Streamed or uploaded on {0}",
         PageCaption: "Watch this one!",
         RerollButton: "Reroll",
@@ -61,7 +62,7 @@ AllStrings["en"] = {
         PastStream: {
             immediate: "",
             forFuture: "",
-            forPast: `%@ without Fauna`,
+            forPast: `%@ without Rina`,
             days: (days) => (days > 1 ? `${days} days` : `${days} day`),
             hours: (hours) => (hours > 1 ? `${hours} hours` : `${hours} hour`),
             minutes: (minutes) => (minutes > 1 ? `${minutes} minutes` : `${minutes} minute`),
