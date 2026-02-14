@@ -3,19 +3,19 @@ const AllStrings = {}
 // To add a new language, copypaste starting from this line...
 AllStrings["en"] = {
     CommonMetadata: {
-        HeaderSMTitle: "I MISS S.S. ISA",
-        FooterText: "Not affiliated with S.S. Isa - {0} {1}",
+        HeaderSMTitle: "I MISS RINA",
+        FooterText: "Not affiliated with Rina Astera - {0} {1}",
         FooterSourceLink: "Source",
-        FooterStreamerLink: "S.S. Isa",
-        FooterFancordLink: "Official Isa Discord"
+        FooterStreamerLink: "Rina Astera Ch.",
+        FooterFancordLink: "Hags Loving Squad Discord"
     },
 
     Main: {
-        PageTitle: "I MISS S.S. ISA",
-        DontMissCaption: "I Don't Miss S.S. Isa",
+        PageTitle: "I MISS RINA",
+        DontMissCaption: "I Don't Miss Rina",
         ImageAlt: "Meme",
         RandomVodLink: "Do your reps",
-        ErrorMessageChannelLink: "You can check Isa's channel yourself",
+        ErrorMessageChannelLink: "You can check Rina's channel yourself",
         ErrorOccurred: "There was a problem checking stream status. {0}!",
         Embed: {
             TextLive: "Streaming: {0}",
@@ -36,7 +36,7 @@ AllStrings["en"] = {
 
     Reps: {
         PageTitle: "Do your reps!",
-        SMMetaDescription: "Get a random S.S. Isa VOD to watch!",
+        SMMetaDescription: "Get a random Rina VOD to watch!",
         VodInfoUploadDate: "Streamed or uploaded on {0}",
         PageCaption: "Watch this one!",
         RerollButton: "Reroll",
@@ -62,7 +62,7 @@ AllStrings["en"] = {
         PastStream: {
             immediate: "",
             forFuture: "",
-            forPast: `%@ without S.S. Isa`,
+            forPast: `%@ without Rina`,
             days: (days) => (days > 1 ? `${days} days` : `${days} day`),
             hours: (hours) => (hours > 1 ? `${hours} hours` : `${hours} hour`),
             minutes: (minutes) => (minutes > 1 ? `${minutes} minutes` : `${minutes} minute`),
